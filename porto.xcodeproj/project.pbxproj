@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED227B7418258096006C36B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED227B7318258096006C36B9 /* Foundation.framework */; };
+		ED227B7618258096006C36B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED227B7518258096006C36B9 /* CoreGraphics.framework */; };
+		ED227B7818258096006C36B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED227B7718258096006C36B9 /* UIKit.framework */; };
+		ED227B7E18258096006C36B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED227B7C18258096006C36B9 /* InfoPlist.strings */; };
+		ED227B8018258096006C36B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED227B7F18258096006C36B9 /* main.m */; };
+		ED227B8418258096006C36B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED227B8318258096006C36B9 /* AppDelegate.m */; };
+		ED227B8718258096006C36B9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED227B8518258096006C36B9 /* Main_iPhone.storyboard */; };
+		ED227B8A18258096006C36B9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED227B8818258096006C36B9 /* Main_iPad.storyboard */; };
+		ED227B8D18258096006C36B9 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED227B8C18258096006C36B9 /* MasterViewController.m */; };
+		ED227B9018258096006C36B9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED227B8F18258096006C36B9 /* DetailViewController.m */; };
+		ED227B9218258096006C36B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED227B9118258096006C36B9 /* Images.xcassets */; };
+		ED227B9918258096006C36B9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED227B9818258096006C36B9 /* XCTest.framework */; };
+		ED227B9A18258096006C36B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED227B7318258096006C36B9 /* Foundation.framework */; };
+		ED227B9B18258096006C36B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED227B7718258096006C36B9 /* UIKit.framework */; };
+		ED227BA318258096006C36B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED227BA118258096006C36B9 /* InfoPlist.strings */; };
+		ED227BA518258096006C36B9 /* portoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED227BA418258096006C36B9 /* portoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED227B9C18258096006C36B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED227B6818258096006C36B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED227B6F18258096006C36B9;
+			remoteInfo = porto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED227B7018258096006C36B9 /* porto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = porto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED227B7318258096006C36B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED227B7518258096006C36B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED227B7718258096006C36B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED227B7B18258096006C36B9 /* porto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "porto-Info.plist"; sourceTree = "<group>"; };
+		ED227B7D18258096006C36B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED227B7F18258096006C36B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED227B8118258096006C36B9 /* porto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "porto-Prefix.pch"; sourceTree = "<group>"; };
+		ED227B8218258096006C36B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED227B8318258096006C36B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED227B8618258096006C36B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		ED227B8918258096006C36B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		ED227B8B18258096006C36B9 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		ED227B8C18258096006C36B9 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		ED227B8E18258096006C36B9 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		ED227B8F18258096006C36B9 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		ED227B9118258096006C36B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED227B9718258096006C36B9 /* portoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = portoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED227B9818258096006C36B9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ED227BA018258096006C36B9 /* portoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "portoTests-Info.plist"; sourceTree = "<group>"; };
+		ED227BA218258096006C36B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED227BA418258096006C36B9 /* portoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = portoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED227B6D18258096006C36B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED227B7618258096006C36B9 /* CoreGraphics.framework in Frameworks */,
+				ED227B7818258096006C36B9 /* UIKit.framework in Frameworks */,
+				ED227B7418258096006C36B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED227B9418258096006C36B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED227B9918258096006C36B9 /* XCTest.framework in Frameworks */,
+				ED227B9B18258096006C36B9 /* UIKit.framework in Frameworks */,
+				ED227B9A18258096006C36B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED227B6718258096006C36B9 = {
+			isa = PBXGroup;
+			children = (
+				ED227B7918258096006C36B9 /* porto */,
+				ED227B9E18258096006C36B9 /* portoTests */,
+				ED227B7218258096006C36B9 /* Frameworks */,
+				ED227B7118258096006C36B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED227B7118258096006C36B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED227B7018258096006C36B9 /* porto.app */,
+				ED227B9718258096006C36B9 /* portoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED227B7218258096006C36B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED227B7318258096006C36B9 /* Foundation.framework */,
+				ED227B7518258096006C36B9 /* CoreGraphics.framework */,
+				ED227B7718258096006C36B9 /* UIKit.framework */,
+				ED227B9818258096006C36B9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED227B7918258096006C36B9 /* porto */ = {
+			isa = PBXGroup;
+			children = (
+				ED227B8218258096006C36B9 /* AppDelegate.h */,
+				ED227B8318258096006C36B9 /* AppDelegate.m */,
+				ED227B8518258096006C36B9 /* Main_iPhone.storyboard */,
+				ED227B8818258096006C36B9 /* Main_iPad.storyboard */,
+				ED227B8B18258096006C36B9 /* MasterViewController.h */,
+				ED227B8C18258096006C36B9 /* MasterViewController.m */,
+				ED227B8E18258096006C36B9 /* DetailViewController.h */,
+				ED227B8F18258096006C36B9 /* DetailViewController.m */,
+				ED227B9118258096006C36B9 /* Images.xcassets */,
+				ED227B7A18258096006C36B9 /* Supporting Files */,
+			);
+			path = porto;
+			sourceTree = "<group>";
+		};
+		ED227B7A18258096006C36B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED227B7B18258096006C36B9 /* porto-Info.plist */,
+				ED227B7C18258096006C36B9 /* InfoPlist.strings */,
+				ED227B7F18258096006C36B9 /* main.m */,
+				ED227B8118258096006C36B9 /* porto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED227B9E18258096006C36B9 /* portoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED227BA418258096006C36B9 /* portoTests.m */,
+				ED227B9F18258096006C36B9 /* Supporting Files */,
+			);
+			path = portoTests;
+			sourceTree = "<group>";
+		};
+		ED227B9F18258096006C36B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED227BA018258096006C36B9 /* portoTests-Info.plist */,
+				ED227BA118258096006C36B9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED227B6F18258096006C36B9 /* porto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED227BA818258096006C36B9 /* Build configuration list for PBXNativeTarget "porto" */;
+			buildPhases = (
+				ED227B6C18258096006C36B9 /* Sources */,
+				ED227B6D18258096006C36B9 /* Frameworks */,
+				ED227B6E18258096006C36B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = porto;
+			productName = porto;
+			productReference = ED227B7018258096006C36B9 /* porto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED227B9618258096006C36B9 /* portoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED227BAB18258096006C36B9 /* Build configuration list for PBXNativeTarget "portoTests" */;
+			buildPhases = (
+				ED227B9318258096006C36B9 /* Sources */,
+				ED227B9418258096006C36B9 /* Frameworks */,
+				ED227B9518258096006C36B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED227B9D18258096006C36B9 /* PBXTargetDependency */,
+			);
+			name = portoTests;
+			productName = portoTests;
+			productReference = ED227B9718258096006C36B9 /* portoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED227B6818258096006C36B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "홍 경진";
+				TargetAttributes = {
+					ED227B9618258096006C36B9 = {
+						TestTargetID = ED227B6F18258096006C36B9;
+					};
+				};
+			};
+			buildConfigurationList = ED227B6B18258096006C36B9 /* Build configuration list for PBXProject "porto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED227B6718258096006C36B9;
+			productRefGroup = ED227B7118258096006C36B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED227B6F18258096006C36B9 /* porto */,
+				ED227B9618258096006C36B9 /* portoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED227B6E18258096006C36B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED227B8A18258096006C36B9 /* Main_iPad.storyboard in Resources */,
+				ED227B9218258096006C36B9 /* Images.xcassets in Resources */,
+				ED227B8718258096006C36B9 /* Main_iPhone.storyboard in Resources */,
+				ED227B7E18258096006C36B9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED227B9518258096006C36B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED227BA318258096006C36B9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED227B6C18258096006C36B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED227B8418258096006C36B9 /* AppDelegate.m in Sources */,
+				ED227B8D18258096006C36B9 /* MasterViewController.m in Sources */,
+				ED227B8018258096006C36B9 /* main.m in Sources */,
+				ED227B9018258096006C36B9 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED227B9318258096006C36B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED227BA518258096006C36B9 /* portoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED227B9D18258096006C36B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED227B6F18258096006C36B9 /* porto */;
+			targetProxy = ED227B9C18258096006C36B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED227B7C18258096006C36B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED227B7D18258096006C36B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED227B8518258096006C36B9 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED227B8618258096006C36B9 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		ED227B8818258096006C36B9 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED227B8918258096006C36B9 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		ED227BA118258096006C36B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED227BA218258096006C36B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED227BA618258096006C36B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED227BA718258096006C36B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED227BA918258096006C36B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "porto/porto-Prefix.pch";
+				INFOPLIST_FILE = "porto/porto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED227BAA18258096006C36B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "porto/porto-Prefix.pch";
+				INFOPLIST_FILE = "porto/porto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED227BAC18258096006C36B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/porto.app/porto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "porto/porto-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "portoTests/portoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ED227BAD18258096006C36B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/porto.app/porto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "porto/porto-Prefix.pch";
+				INFOPLIST_FILE = "portoTests/portoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED227B6B18258096006C36B9 /* Build configuration list for PBXProject "porto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED227BA618258096006C36B9 /* Debug */,
+				ED227BA718258096006C36B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED227BA818258096006C36B9 /* Build configuration list for PBXNativeTarget "porto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED227BA918258096006C36B9 /* Debug */,
+				ED227BAA18258096006C36B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED227BAB18258096006C36B9 /* Build configuration list for PBXNativeTarget "portoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED227BAC18258096006C36B9 /* Debug */,
+				ED227BAD18258096006C36B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED227B6818258096006C36B9 /* Project object */;
+}
